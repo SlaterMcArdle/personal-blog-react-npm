@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
 .App {
   text-align: left;
 }
@@ -7,6 +5,15 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.newsletterContainer {
+  position: relative !important;
+}
+
+.newsletterRow {
+  position: absolute !important;
+  bottom: 3rem !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

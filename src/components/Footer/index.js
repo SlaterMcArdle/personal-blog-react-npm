@@ -7,7 +7,7 @@ export default function Footer() {
     const copyright = String.fromCodePoint(0x00A9);
     return (
         <Container className="footer">
-            <Row>
+            <Row className="align-items-end">
                 <Col>
                     <p id="jDavidson">Jessica Davidson</p>
                 </Col>

@@ -1,5 +1,8 @@
 .newsletter {
     margin: 24px;
+    padding-top: 56px;
+    padding-left: 56px !important;
+    padding-right: 0 !important;
     background-color: #000;
     color: #fff;
 }

@@ -11,7 +11,7 @@ export default function Newsletter() {
                     <p>Receive non-frequent emails about my startup Codewell, you can unsubscribe any time.</p>
                 </Col>
                 <Col>
-                    <img src="https://picsum.photos/300/100" alt="random image" />
+                    <img src="/newsletter-image.png" alt="random image" />
                 </Col>
             </Row>
         </Container>
