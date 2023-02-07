@@ -1,4 +1,44 @@
-#navPostButton {
+.postForm {
+    height: 38px;
+    padding: 0px;
+}
+
+.postForm * {
+    box-sizing: content-box;
+}
+
+.navPostButton {
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.emailInput {
+    background-color: #F3F5F7;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     height: 100% !important;
-    padding: 0 .5rem;
+    margin-right: 1rem;
+    padding: 0 1rem;
+}
+
+.emailInputPrepend {
+    display: inline;
+    background-color: #F3F5F7;
+    height: 38px;
+    width: 38px; 
+}
+.emailInputPrepend span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
 }

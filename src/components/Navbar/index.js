@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container, Form, Button } from 'react-bootstrap';
+import {ReactComponent as Email} from '../../assets/icons/Email.svg';
 import './style.css';
 
 export default function BlogNavbar() {
@@ -7,26 +8,23 @@ export default function BlogNavbar() {
         <Navbar expand="md">
             <Container>
                 <Navbar.Brand>
-                    <span><a href="/">Jessica Davidson</a></span>
+                    <span><a id="logo" href="/">Jessica Davidson</a></span>
                 </Navbar.Brand>
                 <Navbar.Toggle arie-controls="basic-navbar-nav"/>
-                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end ms-auto">
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center ms-auto">
                     <Nav>
                         <Nav.Link href="/">Writings</Nav.Link>
                         <Nav.Link href="/awards">Awards</Nav.Link>
                         <Nav.Link href="/sponsor">Sponsor</Nav.Link>
                     </Nav>
-                    {/* <Form className="d-flex">
-                        <Form.Group controlId="emailForm">
-                            <Form.Control type="email" placeholder="john@example.com" className="bg-secondary text-dark"></Form.Control>
-                        </Form.Group>
-                        <Button variant="primary" type="submit">Create new post</Button>
-                    </Form> */}
-                    <form>
-                        <input type="email" placeholder="john@example.com"/>
-                        <Button id="navPostButton" type="submit" className="bg-dark">Create new post</Button>
-                    </form>
                 </Navbar.Collapse>
+                <div class="postForm input-group">
+                    <div className="input-group-prepend">
+                        <span className="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input className="emailInput" type="email" placeholder="john@example.com"/>
+                    <button type="submit" className="navPostButton">Create new post</button>
+                </div>
             </Container>
         </Navbar>
     )

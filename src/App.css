@@ -1,5 +1,6 @@
 .App {
   text-align: left;
+  position: relative;
 }
 
 .App-logo {
@@ -7,13 +8,13 @@
   pointer-events: none;
 }
 
-.newsletterContainer {
-  position: relative !important;
-}
-
-.newsletterRow {
-  position: absolute !important;
-  bottom: 3rem !important;
+.footerBackground {
+  background-color: #F6CA45;
+  height: 275px;
+  z-index: -100;
+  position: absolute;
+  bottom: 0;
+  width: 100vw !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

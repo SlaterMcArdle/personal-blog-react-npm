@@ -29,14 +29,8 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <Container className="newsletterContainer">
-        <Row className="newsletterRow">
-          <Col xs={{ span: 7, offset: 2}}>
-            <Newsletter />
-          </Col>
-        </Row>
-        <Footer />
-      </Container>
+      <Footer />
+      <div className="footerBackground"></div>
     </div>
   );
 }
